@@ -34,7 +34,5 @@ public class SoftAssertionsSearchShchepetinTest {
                                 "  }\n" +
                                 "}"
                 ));
-
-        sleep(5000);
     }
 }
