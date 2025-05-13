@@ -16,7 +16,7 @@ public class HoverTestShchepetinTest {
     }
 
     @Test
-    void TitleTest() {
+    void titleSearchTest() {
         open("/home");
         $(".HeaderMenu").$(withText("Solutions")).hover();
         $$(".HeaderMenu-dropdown-link").findBy(text("Enterprises")).click();
