@@ -14,7 +14,7 @@ public class SoftAssertionsSearchShchepetinTest {
     }
 
     @Test
-    void SoftAssertionsSearch() {
+    void softAssertionsSearchTest() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-filter").setValue("SoftAssertions");
